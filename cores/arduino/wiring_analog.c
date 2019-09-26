@@ -52,6 +52,7 @@ int analogRead(pin_size_t pinNumber) {
         return -1;
     }
 #endif
+    return -1;
 }
 
 void analogWrite(pin_size_t pinNumber, int value) {
